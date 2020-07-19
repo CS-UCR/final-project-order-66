@@ -6,10 +6,9 @@
     - *Yelp tips*:  This dataset contains a collection of messages about the tips and recommendation on numerous businesses in Northern America
     - *Yelp users and checkin*: These 2 sets have irrelevant data to our project thus we drop them.
     
-2. We also use Yelp Fusion API to obtain further information of 2 popular restaurants in Riverside, CA. Please refer to Yelp_API.ipynb for more details.
-   Furthermore, we also scrape a website to get .....
+2. We also used Yelp Fusion API to obtain further information of 50 (the size limit of Yelp API response) restaurants in Riverside, CA. The response body form Yelp API has more than 20 columns of information. Unfortunately, we only need 3-4 columns of information out of those 20+ thus we also applied data cleaning strategies to get the information we need. Please refer to Yelp_API.ipynb for more details.
    
-3. insert info to run the code here>
+3. In term of running the code, our program was written in python3 on Jupyter notebook environment. However, because the data set we used was too large, we did not include it in this repo. Fortunately, the data set is free and open to download from Yelp database. Running our program on the Jupyter notebook environment and the supplemental data set on Yelp database should work as intended.   
 
 need to include these:
 • identifies and describes the datasets that were used,
