@@ -10,7 +10,7 @@
     
 2. In addition, it seems we need more data to work with after trimming down the dataset we downloaded from Yelp. We also utilized Yelp Fusion API to obtain further information of 50 (the size limit of Yelp API response) restaurants in Riverside, CA. The response body form Yelp API has more than 20 columns of information ranging from location to alias to latitude or longitude. However, Only 3-4 columns of information out of those 20+ are relevant to our project thus we also applied data cleaning strategies to get the information we need. We also made some initial observations on the data set. Please refer to Yelp_API.ipynb for more details.
    
-3. In term of running the code, our program was written in python3 on Jupyter notebook environment. However, because the data set we used was too large, we did not include it in this repo. Fortunately, the data set is free and open to download from Yelp database. Running our program on the Jupyter notebook environment with the supplemental Yelp data set should work as intended.   
+3. In term of running the code, our program was written in python3 on Jupyter notebook environment. However, because the data set we used was too large, we did not include it in this repo. Fortunately, the data set is free and open to download from Yelp database. However, for the API request from Yelp, a Yelp API key is needed. It can be obtained by signing up an account with Yelp at https://www.yelp.com/developers/documentation/v3/authentication  Running our program on the Jupyter notebook environment with the supplemental Yelp data set should work as intended.   
 
 # Phase 3
 
@@ -24,7 +24,7 @@
  
     Out of those 5 Jose Castro did question 3 and 6. Henry Nguyen did questions 1 and 2. We might have to drop questions 4 and 5 since there is no information that can help us answer question 4 because in the Yelp free dataset the attribute to rank restaurants for their prices, was not provided, also for question number 5 we wanted to draw a map, but since we don’t have the necessary tools to make this, we are still undecided whether if we can do it or not.  
 
-2. There is no dependencies except for the Yelp data set stated above in point 3 of the Phase 2.
+2. There is no dependencies except for the Yelp data set and Yelp API key stated above in point 3 of the Phase 2.
 
 3. How we tackle the questions?
     1. For question 1 and 2: Henry used graphs to help him visualize the relations of the restaurants. He also used the classified numbers from the data frames to help him draw a conclusion to answer the questions. He did encounter a problem with question 2 but he was able to navigate and modified the question a little bit. Please see the Phase3.ipynb for a complete detail. 
