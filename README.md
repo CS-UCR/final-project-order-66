@@ -12,3 +12,11 @@
    
 3. In term of running the code, our program was written in python3 on Jupyter notebook environment. However, because the data set we used was too large, we did not include it in this repo. Fortunately, the data set is free and open to download from Yelp database. Running our program on the Jupyter notebook environment with the supplemental Yelp data set should work as intended.   
 
+# Phase 3
+
+1. Although we are only required to come up with 2 questions/hypothesis for this phase, we tried to answer 5 questions we came up with during our phase 1. Out of those 5 Jose Castro did question 4. Henry Nguyen did questions 1 and 2. We might have to drop question 4 since there is no information that can help us answer the question. And, we need to do question 5 still.
+
+2. There is no dependencies except for the Yelp data set stated above in point 3 of the Phase 2.
+
+3. How we tackle the questions?
+    1. For question 1 and 2: Henry used graphs to help him visualize the relations of the restaurants. He also used the classified numbers from the data frames to help him draw a conclusion to answer the questions. He did encounter a problem with question 2 but he was able to navigate and modified the question a little bit. Please see the Phase3.ipynb for a complete detail. 
